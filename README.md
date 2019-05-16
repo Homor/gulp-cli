@@ -23,7 +23,7 @@ gulp pack
 ```
 
 
-##依赖包说明
+## 依赖包说明
 
 ###本地gulp
 gulp
@@ -50,21 +50,21 @@ gulp-remove-empty-lines
 ### 标签替换
 gulp-html-replace
 
-##配置说明
+## 配置说明
 
-###源文件目录
+### 源文件目录
 "workDirectory":"./src/",
-###输出的文件目录
+### 输出的文件目录
 "outPut":"./project/",
-###用到js库
+### 用到js库
 "js_libs":["jquery-3.1.1.min.js","pixi.min.js","js/vconsole.min.js"],
-###自己的js代码(要压缩打包到一起的代码)
+### 自己的js代码(要压缩打包到一起的代码)
 "js_self":["common.js","index.js"],
-###自己的js代码（需要单独打包的js文件）
+### 自己的js代码（需要单独打包的js文件）
 "js_independent":["/js/init.js"],
-###用到css库
+### 用到css库
 "css_libs":[],
-###自己的css库
+### 自己的css库
 "css_self":["index.css"],
-####开发时，用到的一些数据
+#### 开发时，用到的一些数据
 "dev_dependencies":[]
